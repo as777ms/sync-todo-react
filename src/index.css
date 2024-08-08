@@ -1,0 +1,72 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  /* font-family: Arial, sans-serif; */
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin: 5px;
+  width: calc(20% - 20px);
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input::placeholder {
+  color: #ccc;
+}
+
+.todo-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.todo-table th,
+.todo-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.todo-table th {
+  background-color: #f4f4f4;
+}
+
+.todo-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.edit-btn {
+  background-color: green ;
+}
+
+.edit-btn:hover {
+  background-color: rgb(25, 171, 25);
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
